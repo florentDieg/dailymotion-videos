@@ -1,0 +1,57 @@
+.videoContent{
+    width: auto;
+    height: 100%;
+    padding-top: 102px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Montserrat';
+    margin-top: -365px;
+}
+
+#nofiPlayBt{
+    color: #39065a;
+    margin-top: 7%;
+    margin-left: 47%;
+}
+
+.playBt{
+    color: #39065a;
+    margin-top: 12%;
+    margin-left: 41%;
+}
+
+.hiddenBt{
+    display: none;
+    visibility: hidden;
+}
+
+.videoElem{
+    background-color: transparent;
+    -webkit-background-size: cover;  /* pour anciens Chrome et Safari */
+    background-size: cover;  /* version standardisée */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.videoElem:hover{
+    cursor: pointer;
+}
+
+.nofiVideoTitle{
+    color: #333;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.videoListElemContainer{
+    margin-bottom: 24px;
+    height: 150px;
+}

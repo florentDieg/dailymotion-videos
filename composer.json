@@ -1,0 +1,20 @@
+{
+    "name": "thecomicsdealer/dailymotionvideos",
+    "description": "A wordpress plugin to display a dailymotion channel's videos on a website",
+    "type": "wordpress-plugin",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Florent Ogoutchoro",
+            "email": "florent@agencemoods.com"
+        }
+    ],
+    "require": {
+        "dailymotion/sdk": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "dailymotion\\sdk\\": "vendor/dailymotion/sdk"
+        }
+   }
+}
