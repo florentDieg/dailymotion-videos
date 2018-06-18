@@ -14,8 +14,8 @@ require_once __DIR__.'/vendor/autoload.php';
 
 class DailymotionVideos
 {
-    private $apiKey = "3abd670eba1e739185cc";
-    private $apiSecret = "951cf7be70cff0f4bf00422a5e8add1e5bf0cc64";
+    private $apiKey = "";
+    private $apiSecret = "";
     private $api;
 
     public function __construct()
